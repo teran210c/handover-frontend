@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function defects() {
      const today = new Date()
     return (
@@ -11,9 +13,9 @@ export default function defects() {
                 })}
             </h1>
 
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Add Defect
-            </button>
+            <Link to="/add-defects" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+             Add Defect
+            </Link>
 
             <ol>
                 <li>

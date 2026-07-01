@@ -1,6 +1,7 @@
 import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
 import Defects from "../pages/Defects"
+import { Outlet } from "react-router-dom"
 
 export default function Layout() {
    
@@ -10,7 +11,9 @@ export default function Layout() {
                 <Sidebar />
                 <div className="flex-1 flex flex-col">
                     <Navbar />
-                    <Defects />
+                    <main>
+                        <Outlet />
+                    </main>
                 </div>
             </div>
         </>
