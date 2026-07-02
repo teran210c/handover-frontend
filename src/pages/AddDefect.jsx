@@ -78,7 +78,7 @@ export default function AddDefect() {
                     <div>
                         <label htmlFor="">Shift</label>
                         <select name="" id="">
-                            <option value="">-- Select shift</option>
+                            <option value="">-- Select shift --</option>
                         </select>
                     </div>
 
@@ -91,6 +91,55 @@ export default function AddDefect() {
                         <label htmlFor="">Location</label>
                         <input type="text" />
                     </div>
+
+                    <div>
+                        <label htmlFor="">Defect Type</label>
+                        <select>
+                            <option value="">-- Select Defect --</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div>
+                        <label htmlFor="">Evidence</label>
+                        <input type="file" />
+                    </div>
+                    <div>
+                        <label htmlFor="">SPI</label>
+                        <input type="file" />
+                    </div>
+                    <div>
+                        <label htmlFor="">Pre AOI</label>
+                        <input type="file" />
+                    </div>
+                    <div>
+                        <label htmlFor="">Post AOI</label>
+                        <input type="file" />
+                    </div>
+
+                    <div>
+                        <label htmlFor="">Analysis</label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+
+                    <div>
+                        <label htmlFor="">Root cause</label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+
+                    <div>
+                        <label htmlFor="">Improvement</label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+
                 </div>
             </form>
         </div>
